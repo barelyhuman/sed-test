@@ -1,0 +1,11 @@
+{
+  "name": "arpis-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "currentip=\"$(ipconfig getifaddr en0)\" && sed -i '.bak' \"s/0.0.0.0/${currentip}/g\" file.txt"
+  },
+  "author": "",
+  "license": "ISC"
+}
